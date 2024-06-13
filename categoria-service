@@ -1,3 +1,0 @@
-server:
-  port: ${PORT:8068}
-message: configuracion de categoria de levantado!
