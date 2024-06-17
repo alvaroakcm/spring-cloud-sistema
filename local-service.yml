@@ -5,13 +5,13 @@ message: Configuracion de local en el servidor levantado!
 spring:
      datasource:
        driver-class-name: com.mysql.cj.jdbc.Driver
-       password: 12345678
        url: jdbc:mysql://localhost:3306/casoapli?serverTimezone=UTC
        usename: root
+       password: 12345678
      jpa:
       hibernate:
         ddl-auto: update
-        database-platform: org.hibernate.dialect.MySQL5Dialect
+        database-platform: org.hibernate.dialect.MySQLDialect
      cloud:
        config:
          uri: http://localhost:8860
