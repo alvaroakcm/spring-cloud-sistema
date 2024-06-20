@@ -1,1 +1,7 @@
-
+server:
+  port:
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+#message: servicio de registro y descubrimiento levantado en el servidor
