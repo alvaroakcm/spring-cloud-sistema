@@ -1,5 +1,5 @@
 server:
-  port: ${PORT:8895}
+  port: ${PORT:8892}
 message: Configuracion de producto en el servidor levantado!
 
 spring:
